@@ -1,0 +1,269 @@
+body{
+  
+  background: -webkit-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #485563 10%, #29323c 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #485563 10%, #29323c 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #485563 10%, #29323c 90%); /* W3C */
+	padding : 0px auto;
+	margin: 0px auto;
+	font-size:1.4em;
+}
+
+.container{
+	text-align:center;
+}
+
+#menuContainer{
+	margin-bottom:20px;
+	background-color : #988E6B;
+	color:white;
+}
+
+.content {
+	display: inline-block;
+	border: 5px solid white;
+	border-radius: 10px;
+	margin-top : 50px;
+	background-color : lightgrey;
+	color:black;
+}
+
+.menu {
+	display: inline-block;
+	padding: 20px;
+	margin: 0px;
+	
+}
+
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:black;
+}
+
+#usagers{
+	background-color :#514F6A;
+}
+.liste{
+	display:inline-block;
+	background:  url("../images/liste.png") no-repeat center left;
+	width :32px;
+	height:32px;
+	text-align:right;
+	
+}
+.liste:hover{
+	background:  url("../images/listeH.png") no-repeat center left;
+}
+
+#disconnect{
+	background-color :#6D5E47;
+	margin-left :-8px;
+
+}
+.disconnect{
+	display:inline-block;
+	background:  url("../images/disconnect.png") no-repeat center left;
+	width :32px;
+	height:32px;
+	text-align:right;
+}
+.disconnect:hover{
+	background:  url("../images/disconnectH.png") no-repeat center left;
+}
+a{
+	margin:0px;
+	text-decoration:none;
+	color:white;
+	size: 3em;
+}
+table{
+	border-collapse : separate;
+	background-color :white;
+	border:5px solid white;
+}
+th{
+	background-color :#988E6B;
+	color:white;
+	border : 3px solid white;
+}
+td{
+	text-align:center;
+	color : black;
+	padding:10px;
+	border : 3px solid white;
+}
+
+tr:nth-child(odd){
+	background-color: darkgrey;
+}
+tr:nth-child(even){
+	background-color: lightgrey;
+}
+
+.link{
+	text-decoration:none;
+	text-align:center;
+	color :white;
+}
+
+.lightgreen{
+	background-color: #988E6B;
+}
+
+.edit{
+	display:inline-block;
+	margin : 2px;
+	background: transparent url("../images/edit.png") no-repeat center center ;
+	width :32px;
+	height:32px;
+}
+
+.edit:hover{
+	background-image:  url("../images/editH.png") ;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.apply{
+	display:inline-block;
+	margin : 2px;
+	background-image:  url("../images/check.png") ;
+	background-repeat:no-repeat;
+	background-position:center center;
+	width :48px;
+	height:48px;
+
+}
+
+.apply:hover{
+	background-image:  url("../images/checkH.png") ;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.cancel{
+	display:inline;
+	margin : 2px;
+	background-image:  url("../images/cancel.png") ;
+	background-repeat:no-repeat;
+	background-position:center center;
+	width :48px;
+	height:48px;
+
+}
+
+.cancel:hover{
+	background-image:  url("../images/cancelH.png") ;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.delete{
+	display:inline;
+	margin : 2px;
+	background:transparent url("../images/delete.png") no-repeat center center;
+	width :32px;
+	height:32px;
+}
+
+.delete:hover{
+	background-image:url("../images/deleteH.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.largerfont{
+	font-size : 1.6em;
+}
+
+#create {
+	background-image:url("../images/create.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+
+}
+#create:hover{
+	background-image:url("../images/createH.png");
+	background-repeat:no-repeat;
+}
+
+.label {
+	display: inline-block;
+    width: 250px;
+    margin-right: 5px;
+    text-align: right;
+    color : black;
+}
+
+.inputText{
+	color : grey;
+	border : 2px solid darkgrey;
+	border-radius :2px;
+	margin : 2px;
+	height : 30px;
+	text-align:center;
+}
+
+
+.divDelete {
+	width : 300px;
+	border : lightgrey 5px solid;
+	border-radius : 5px; 
+	background-color:white;
+}
+
+
+
+.rounded{
+	border-radius:5px;
+}
+
+.submit{
+	border : none;
+	cursor:pointer;
+	padding : 5px;
+	color :white;
+}
+
+.header{
+	padding : 5px;
+	background-color : #514F6A;
+	color:white;
+}
+
+.fullWidth{
+	width :100%;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.divConnectedUser{
+	float:right;
+	background : transparent url("../images/user.png") no-repeat center right;
+	margin-right:20px;
+}
+
+.marginRight{
+	margin-right : 20px;
+}
+
+.marginLeft{
+	margin-left:10px;
+}
+
+.erreur{
+	color : red;
+}
+
+.notification{
+	color : green ;
+}
+
